@@ -9,20 +9,22 @@ This is a simple ImageView Library with support of Two Finger Gestures for Zoom,
 2.	ImageView with Zoom and Drag, No Rotation.
 3.	ImageView with Zoom, Drag and Free Rotation.
 
-How to implement:
-<org.voron.voronimageview.VoronImageView
-xmlns:android="http://schemas.android.com/apk/res/android"
+<b>How to implement:</b>
+
+        <org.voron.voronimageview.VoronImageView
+        xmlns:android="http://schemas.android.com/apk/res/android"
     	xmlns:tools="http://schemas.android.com/tools"
     	xmlns:voron="http://schemas.android.com/apk/res-auto" 
        android:id="@+id/vImageView"
        android:layout_width="match_parent"
        android:layout_height="match_parent"
        voron:rotation="by90degree"/>
-
+       
 The custom attributes are:  "by90degree","disable","rotation".
 
-And in the Activity:
-Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.your-bitmap);
-VoronImageView vImageView = (VoronImageView)view.findViewById(R.id.vImageView);
-vImageView.setImageBitmap(bitmap);
+<b>And in the Activity:</b>
+
+    Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.your-bitmap);
+    VoronImageView vImageView = (VoronImageView)view.findViewById(R.id.vImageView);
+    vImageView.setImageBitmap(bitmap);
 
