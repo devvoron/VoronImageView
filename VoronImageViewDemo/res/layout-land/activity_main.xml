@@ -1,0 +1,15 @@
+<LinearLayout
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <fragment 
+        android:id="@+id/fVoronView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="org.voron.voronimageviewdemo.VoronImageViewFragment"/>
+    
+   
+
+</LinearLayout>
