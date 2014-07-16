@@ -13,13 +13,13 @@ This is a simple ImageView Library with support of Two Finger Gestures for Zoom,
 <b>How to implement:</b>
 
         <org.voron.voronimageview.VoronImageView
-        xmlns:android="http://schemas.android.com/apk/res/android"
-    	xmlns:tools="http://schemas.android.com/tools"
-    	xmlns:voron="http://schemas.android.com/apk/res-auto" 
-       android:id="@+id/vImageView"
-       android:layout_width="match_parent"
-       android:layout_height="match_parent"
-       voron:rotation="by90degree"/>
+                xmlns:android="http://schemas.android.com/apk/res/android"
+    	        xmlns:tools="http://schemas.android.com/tools"
+    	        xmlns:voron="http://schemas.android.com/apk/res-auto" 
+                android:id="@+id/vImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                voron:rotation="by90degree"/>
        
 The custom attributes are:  "by90degree","disable","rotation".
 
