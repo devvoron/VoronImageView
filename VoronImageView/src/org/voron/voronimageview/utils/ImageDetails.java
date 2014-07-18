@@ -35,7 +35,7 @@ public class ImageDetails {
 		this.dencityScreen = dencity;
 	}
 	
-	public void setImageDetails(int width, int height, Context context){
+	public void setImageDetails(int width, int height){
 		if(width >= height) imageRatio = (float)width/(float)height;
 		if(width < height) imageRatio = (float)height/(float)width;
 		
