@@ -64,7 +64,7 @@ public class VoronImageView extends ImageView{
 		this.imageViewWidth = w;
 		this.imageViewHeight = h;
 		details.setImageViewDim(w, h);
-		details.setImageDetails(getDrawable().getIntrinsicWidth(), getDrawable().getIntrinsicHeight(), getContext());
+		details.setImageDetails(getDrawable().getIntrinsicWidth(), getDrawable().getIntrinsicHeight();
 		int mTouchSlop = ViewConfiguration.get(getContext()).getScaledTouchSlop();
 		voronImageView.setImageView(this);
 		voronImageView.setParam(w, h, imageViewWidthRetained, imageViewHeightRetained, getDrawable().getIntrinsicWidth(), getDrawable().getIntrinsicHeight(),
